@@ -451,7 +451,7 @@ border-radius:5px;-moz-box-shadow:0 7px 5px -5px #99; -webkit-box-shadow: 0 7px 
 .fb-box .title{font-family: 'MetaNormalC';font-size:14px;padding-bottom:10px}
 .fb-box .title a{color:#0081c6;letter-spacing:2px;text-transform:uppercase;margin-left:5px}
 
-.fb-box .scroll-pane {width:440px;height:200px;overflow: auto;padding:0 10px 0 5px}
+.fb-box .scroll-pane {width:440px;height:225px;overflow: auto;padding:0 10px 0 5px}
 .fb-box .jspContainer{	overflow: hidden;	position: relative;}
 .fb-box .jspPane{	position: absolute;width:440px;}
 .fb-box .jspVerticalBar{	position: absolute;	top: 0;	right: 0;	width:6px;	height: 100%;}
@@ -472,7 +472,8 @@ border-radius:5px;-moz-box-shadow:0 7px 5px -5px #99; -webkit-box-shadow: 0 7px 
 
 .fb-box .scroll-pane div.line{background:#fff;-moz-box-shadow:0 5px 5px #999; -webkit-box-shadow: 0 5px 5px #999; box-shadow: 0 5px 5px #d7d7d7;padding:3px 20px 3px 3px;margin:0 10px 7px 0}
 .fb-box .scroll-pane div.line img{float:left;margin:0 15px 0 0;}
-.fb-box .scroll-pane div.line div{overflow:hidden;padding:3px 0}
-.fb-box .scroll-pane div.line a{display:block;color:#036ab0}
+.fb-box .scroll-pane div.line div.txt{padding:3px 0}
+.fb-box .scroll-pane div.line div.txt span{display:none}
+.fb-box .scroll-pane div.line a{color:#036ab0}
 
 
