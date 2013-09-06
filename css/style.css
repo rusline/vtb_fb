@@ -445,10 +445,13 @@ border-radius:5px;-moz-box-shadow:0 7px 5px -5px #99; -webkit-box-shadow: 0 7px 
 
 /* Facebook box */
 .fb-box{}
-.fb-box .title{font-family: 'MetaNormalC';font-size:14px;}
+.fb-box .add-post{padding:10px 0 0 0}
+.fb-box .add-post a{margin-left:5px}
+.fb-box .add-post a{color:#0081c6}
+.fb-box .title{font-family: 'MetaNormalC';font-size:14px;padding-bottom:10px}
 .fb-box .title a{color:#0081c6;letter-spacing:2px;text-transform:uppercase;margin-left:5px}
 
-.fb-box .scroll-pane {width:440px;height:230px;overflow: auto;padding:0 10px 0 5px}
+.fb-box .scroll-pane {width:440px;height:200px;overflow: auto;padding:0 10px 0 5px}
 .fb-box .jspContainer{	overflow: hidden;	position: relative;}
 .fb-box .jspPane{	position: absolute;width:440px;}
 .fb-box .jspVerticalBar{	position: absolute;	top: 0;	right: 0;	width:6px;	height: 100%;}
@@ -456,7 +459,7 @@ border-radius:5px;-moz-box-shadow:0 7px 5px -5px #99; -webkit-box-shadow: 0 7px 
 .fb-box .jspVerticalBar *, .fb-box .jspHorizontalBar * {	margin: 0;	padding: 0;}
 .fb-box .jspCap {	display: none;}
 .fb-box .jspHorizontalBar .jspCap{	float: left;}
-.fb-box .jspTrack{	background: url(../i/fb/track.png) repeat-y;	position: relative;margin-top:10px}
+.fb-box .jspTrack{	background: url(../i/fb/track.png) repeat-y;	position: relative;}
 .fb-box .jspDrag{	background:#026cb3 url(../i/fb/drag.png) repeat-x;	position: relative;	top: 0;	left: 0;	cursor: pointer;}
 .fb-box .jspHorizontalBar .jspTrack, .jspHorizontalBar .jspDrag {	float: left;	height: 100%;}
 .fb-box .jspArrow {	background: #50506d;	text-indent: -20000px;	display: block;	cursor: pointer;}
@@ -467,8 +470,9 @@ border-radius:5px;-moz-box-shadow:0 7px 5px -5px #99; -webkit-box-shadow: 0 7px 
 .fb-box .jspCorner{	background: #eeeef4;	float: left;	height: 100%;}
 * html .fb-box .jspCorner{	margin: 0 -3px 0 0;}
 
-.fb-box .scroll-pane div.line{background:#fff;-moz-box-shadow:0 5px 5px #999; -webkit-box-shadow: 0 5px 5px #999; box-shadow: 0 5px 5px #CCC;padding:8px 20px 8px 8px;margin:10px 10px 0 0}
-.fb-box .scroll-pane div.line img{float:left;margin:0 15px 0 0}
+.fb-box .scroll-pane div.line{background:#fff;-moz-box-shadow:0 5px 5px #999; -webkit-box-shadow: 0 5px 5px #999; box-shadow: 0 5px 5px #d7d7d7;padding:3px 20px 3px 3px;margin:0 10px 7px 0}
+.fb-box .scroll-pane div.line img{float:left;margin:0 15px 0 0;}
+.fb-box .scroll-pane div.line div{overflow:hidden;padding:3px 0}
 .fb-box .scroll-pane div.line a{display:block;color:#036ab0}
 
 
