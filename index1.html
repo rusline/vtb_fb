@@ -3,18 +3,25 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width">
-    
+
 	<title>Index</title>
-    
+
     <!--~~~~~~~ styles ~~~~~~~-->
 	<link rel="stylesheet" href="css/style.css">
-    
+
     <!--~~~~~~~ scripts ~~~~~~~-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.jscrollpane.js"></script>
+		<script>
+			$(document).ready(function(){
+			jQuery('.scroll-pane').jScrollPane();
+			});
+		</script>
+		
     <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    
+
     <script src="js/main.js"></script>
-    
+
     <script src="js/modernizr.js"></script>
     <script src="js/jquery.placeholder.min.js"></script>
     <script src="js/custom-form-elements.js"></script>
@@ -25,16 +32,16 @@
 
 
 <div class="wrap">
-    
+
     <div class="forMainGradient">
 
 	<!--~~~~~~~ begin header ~~~~~~~-->
     <div class="topLine" id="topLine">
         <div class="fixWidth">
-            
+
         </div>
     </div>
-    
+
     <header class="head">
         <div class="fixWidth clearfix">
             <div class="logo_slog pullLeft">
@@ -42,7 +49,7 @@
                 <p class="slog">ВТБ Карьера.<br>
                 От личных достижений — к общим победам.</p>
             </div>
-           
+
             <div class="topContacts pullRight">
                 <ul class="social">
 	<li class="item"><a target="_blank" href="http://www.youtube.com/user/vtbgroup"><img src="i/social/yt.png" alt=""></a></li>
@@ -104,9 +111,9 @@
 
     </header>
     <!--~~~~~~~ end header ~~~~~~~-->
-    
-    
-    
+
+
+
     <!--~~~~~~~ begin middle ~~~~~~~-->
     <section class="middle fixWidth">
         <div class="pollOut clearfix">
@@ -129,13 +136,45 @@
                     </div>
                 </form>
             </div>
-            <div class="news">
-                <a class="news_link" href="#">Центр оценки и развития компетенций</a>
-                <div class="news_content clearfix">
-                    <a class="news_img" href="#"><img src="i/news_img1.jpg" width="144" height="100" alt=""></a>
-                    <p>Корпоративный университет — это комплекс программ стратегического уровня в системе корпоративного обучения ВТБ.</p>
-                </div>
+						
+						<!-- ///////////////////////////////////////////////////////////// -->
+						
+						
+						
+						
+            <div class="fb-box">
+							<div class="title"><a href="#">Группа ВТБ на Facebook</a></div>
+							<div class="scroll-pane">
+								<div class="line clearfix">
+									<img src="i/fb/fb01.jpg" width="78" height="78" alt="#">
+									Всем, кто любит небо, но не сможет прийти лично, мы даем уникальную возможность посмотреть на полеты участников авиашоу <a href="#">Читать дальше</a>
+								</div>
+								<div class="line clearfix">
+									<img src="i/fb/fb02.jpg" width="78" height="78" alt="#">
+									Вы все еще не пользуетесь БМmobile? <br />Тогда самое время узнать о его плюсах и скорее установить на свой телефон!  <a href="#">Читать дальше</a>
+								</div>
+								<div class="line clearfix">
+									<img src="i/fb/fb01.jpg" width="78" height="78" alt="#">
+									Всем, кто любит небо, но не сможет прийти лично, мы даем уникальную возможность посмотреть на полеты участников авиашоу <a href="#">Читать дальше</a>
+								</div>
+								<div class="line clearfix">
+									<img src="i/fb/fb02.jpg" width="78" height="78" alt="#">
+									Вы все еще не пользуетесь БМmobile? <br />Тогда самое время узнать о его плюсах и скорее установить на свой телефон!  <a href="#">Читать дальше</a>
+								</div>
+								<div class="line clearfix">
+									<img src="i/fb/fb01.jpg" width="78" height="78" alt="#">
+									Всем, кто любит небо, но не сможет прийти лично, мы даем уникальную возможность посмотреть на полеты участников авиашоу <a href="#">Читать дальше</a>
+								</div>
+								<div class="line clearfix">
+									<img src="i/fb/fb02.jpg" width="78" height="78" alt="#">
+									Вы все еще не пользуетесь БМmobile? <br />Тогда самое время узнать о его плюсах и скорее установить на свой телефон!  <a href="#">Читать дальше</a>
+								</div>
+							</div>
             </div>
+						
+						<!-- ///////////////////////////////////////////////////////////// -->
+
+
         </div>
         <div class="mainShadow"></div>
         <div class="gallery">
@@ -146,25 +185,25 @@
         </div>
     </section>
     <!--~~~~~~~ end middle ~~~~~~~-->
-    
+
     </div>
-    
+
     <div class="mainGradient"></div>
-    
+
 </div>
 
 <!--~~~~~~~ begin footer ~~~~~~~-->
 <footer class="foot">
     <div class="fixWidth clearfix">
         <div class="foot_col">
-          
-		
+
+
 		<form action="#">
                 <input class="inputSearch" type="text" placeholder="Поиск по сайту">
             </form>
-		
-		
-		
+
+
+
             <p class="copy">
                 © ВТБ, 2013<br>
                 Создание сайта – <a href="http://articulmedia.ru/" target="blank">Articul Media</a>
@@ -189,7 +228,7 @@
                 <p><a href="mailto:job@vtb.ru">job@vtb.ru</a></p>
             </div>
         </div>
-	
+
         <div class="toTop"><button class="btn">Форма обратной связи </button><br /><a id="toTop" href="#topLine">Наверх</a>
     </div>
 </footer>
