@@ -1,0 +1,8 @@
+﻿				.marquee {position:relative;}
+				.marquee p {position:relative; font:13px 'MetaNormalC'; line-height:18px;}
+				.marquee span {display:inline-block; vertical-align:top; padding:0 15px;}
+				.marquee .str_wrap {width:100%; overflow:hidden; white-space:nowrap; position:relative;}
+				.marquee .str_move {position:absolute; top:0;}
+				
+				.marquee .shadow_l {background:url(../i/marquee_shadow_l.png) repeat-y; width:200px; height:100%; position:absolute; top:0; left:15px; z-index:20;}
+				.marquee .shadow_r {background:url(../i/marquee_shadow_r.png) repeat-y; width:200px; height:100%; position:absolute; top:0; right:15px; z-index:20;}
